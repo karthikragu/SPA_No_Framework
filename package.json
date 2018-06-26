@@ -1,0 +1,33 @@
+{
+  "name": "SPA_No_Framework",
+  "version": "1.0.0",
+  "description": "Single Page Application without using any frameworks",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikragu/SPA_No_Framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthikragu/SPA_No_Framework/issues"
+  },
+  "homepage": "https://github.com/karthikragu/SPA_No_Framework#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "jquery": "^3.3.1",
+    "semantic-ui-css": "^2.3.2",
+    "vanilla-router": "^1.2.7"
+  }
+}
